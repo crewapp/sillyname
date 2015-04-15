@@ -16,7 +16,7 @@ function generateStupidName(){
     var noun = randomNoun();
     noun = noun.substr(0, 1).toUpperCase() + noun.substr(1);
     var adjective = randomAdjective();
-    return adjective + ' ' + noun1;
+    return adjective + ' ' + noun;
 }
 
 module.exports = generateStupidName;
