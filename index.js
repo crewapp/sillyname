@@ -13,11 +13,10 @@ function randomAdjective(){
 }
 
 function generateStupidName(){
-    var noun1 = randomNoun();
-    var noun2 = randomNoun();
-    noun2 = noun2.substr(0, 1).toUpperCase() + noun2.substr(1);
+    var noun = randomNoun();
+    noun = noun.substr(0, 1).toUpperCase() + noun.substr(1);
     var adjective = randomAdjective();
-    return adjective + noun1 + ' ' + noun2;
+    return adjective + ' ' + noun1;
 }
 
 module.exports = generateStupidName;
