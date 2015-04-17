@@ -1,6 +1,5 @@
 {
   "name": "sillyname",
-  "version": "0.0.3",
   "description": "A silly random name generator",
   "main": "index.js",
   "directories": {
@@ -11,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thedeveloper/sillyname"
+    "url": "https://github.com/crewapp/sillyname"
   },
   "keywords": [
     "node",
